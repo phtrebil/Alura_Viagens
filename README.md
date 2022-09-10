@@ -5,4 +5,5 @@ Aplicativo que simula uma app de agência de viagens desenvolvido em Java durant
 
 1. Layouts Android parte 1: criando telas com ConstraintLayout
      - [release/Aplicando_ConstraintLayout](https://github.com/phtrebil/Alura_Viagens/tree/release/Aplicando_ConstraintLayout)
+     - [release/atualizando_layouts_com_listview](https://github.com/phtrebil/Alura_Viagens/tree/release/atualizando_layouts_com_listview)
     
