@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <ImageView
-                android:id="@+id/imagem"
+                android:id="@+id/item_imagem"
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 app:layout_constraintStart_toStartOf="parent"
@@ -33,6 +33,7 @@
                 android:contentDescription="@string/foto_de_s_o_paulo"
                 />
             <TextView
+                android:id="@+id/item_local"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 tools:text="@sample/pacote.json/pacotes/local"
@@ -42,8 +43,8 @@
                 android:layout_margin="8dp"
                 android:padding="8dp"
                 android:background="@android:drawable/screen_background_dark_transparent"
-                app:layout_constraintBottom_toBottomOf="@id/imagem"
-                app:layout_constraintStart_toStartOf="@id/imagem"
+                app:layout_constraintBottom_toBottomOf="@id/item_imagem"
+                app:layout_constraintStart_toStartOf="@id/item_imagem"
                 />
 
             <View
@@ -53,7 +54,7 @@
                 android:background="@android:color/holo_orange_dark"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/imagem"
+                app:layout_constraintTop_toBottomOf="@id/item_imagem"
                 />
             <TextView
                 android:id="@+id/item_pacote_dias"

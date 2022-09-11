@@ -4,17 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.ListaPacoteActivity">
+    >
+
 
     <ImageView
-        android:id="@+id/image_view1"
+        android:id="@+id/image_banner"
         android:layout_width="match_parent"
         android:layout_height="120dp"
         android:contentDescription="@string/banner"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:src="@color/purple_700"
+        android:src="@color/design_default_color_primary"
         />
 
     <TextView
@@ -28,15 +29,11 @@
         android:layout_marginTop="20dp"
         android:layout_marginBottom="8dp"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintStart_toStartOf="@id/image_banner"
+        app:layout_constraintTop_toTopOf="@id/image_banner"/>
 
     <TextView
-        android:id="@+id/brasil"
+        android:id="@+id/text_nome_pais"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/brasil"
@@ -50,11 +47,14 @@
         />
 
     <ListView
+        android:id="@+id/listaDePacotes"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:divider="@null"
+        android:dividerHeight="0dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/image_view1"
+        app:layout_constraintTop_toBottomOf="@id/image_banner"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:listitem="@layout/item_pacote"
         />
