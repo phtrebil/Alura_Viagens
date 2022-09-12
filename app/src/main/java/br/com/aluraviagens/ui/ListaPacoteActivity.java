@@ -2,7 +2,9 @@ package br.com.aluraviagens.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ListView;
 
 import java.util.List;
@@ -22,6 +24,8 @@ public class ListaPacoteActivity extends AppCompatActivity {
         setContentView(R.layout.activity_lista_de_pacotes);
         setTitle(PACOTES);
         configuraLista();
+        Intent intent = new Intent(this, ResumoPacoteActivity.class);
+        startActivity(intent);
     }
 
     private void configuraLista() {
@@ -29,4 +33,5 @@ public class ListaPacoteActivity extends AppCompatActivity {
         List<Pacotes> pacotes = new PacoteDao().lista();
         listaDePacotes.setAdapter(new ListaDePacotesAdapter(pacotes, this));
     }
+
 }

@@ -7,4 +7,6 @@
     <string name="s_o_paulo">São Paulo</string>
     <string name="_2_dias">2 dias</string>
     <string name="r_243_99">R$243,99</string>
+    <string name="pre_o_final">Preço Final:</string>
+    <string name="realizar_o_pagemento">REALIZAR O PAGEMENTO</string>
 </resources>
