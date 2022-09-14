@@ -112,6 +112,7 @@
         android:inputType="text" />
 
     <Button
+        android:id="@+id/pagamento_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
