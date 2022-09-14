@@ -9,3 +9,4 @@ Aplicativo que simula uma app de agência de viagens desenvolvido em Java durant
      - [release/implementando_classes](https://github.com/phtrebil/Alura_Viagens/tree/release/implementando_classes)
 2. Layouts Android parte 2: boas práticas para criação de telas
      - [release/acrescentando_novo_layout_resumo_do_pacote](https://github.com/phtrebil/Alura_Viagens/tree/release/acrescentando_novo_layout_resumo_do_pacote)
+     - [release/layout_de_pagamento_e_resumo_da_compra](https://github.com/phtrebil/Alura_Viagens/tree/release/layout_de_pagamento_e_resumo_da_compra)
