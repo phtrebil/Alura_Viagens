@@ -9,4 +9,15 @@
     <string name="r_243_99">R$243,99</string>
     <string name="pre_o_final">Preço Final:</string>
     <string name="realizar_o_pagemento">REALIZAR O PAGEMENTO</string>
+    <string name="digite_as_informa_es_do_cart_o_de_cr_dito_que_voc_deseja_usar_para_o_pagamento">Digite as informações do cartão de crédito que você deseja usar para o pagamento</string>
+    <string name="valor_da_compra">Valor da compra:</string>
+    <string name="n_mero_do_cart_o_de_cr_dito">Número do Cartão de Crédito</string>
+    <string name="aa">AA</string>
+    <string name="mm">MM</string>
+    <string name="cvc">CVC</string>
+    <string name="nome_no_cart_o_de_cr_dito">Nome no cartão de crédito</string>
+    <string name="finalizar_compra">FINALIZAR COMPRA</string>
+    <string name="parab_ns">PARABÉNS!</string>
+    <string name="compra_realizada_com_sucesso">Compra realizada com sucesso :)</string>
+    <string name="confira_o_resumo_da_compra">Confira o resumo da compra</string>
 </resources>

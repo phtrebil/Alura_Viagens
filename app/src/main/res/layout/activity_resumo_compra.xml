@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ResumoCompraActivity">
+
+    <ImageView
+        android:id="@+id/compra_banner"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:background="@android:color/holo_orange_dark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <TextView
+        android:id="@+id/compra_msg_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/parab_ns"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@id/compra_banner"
+        app:layout_constraintEnd_toEndOf="@id/compra_banner"
+        app:layout_constraintTop_toTopOf="@id/compra_banner"/>
+    <TextView
+        android:id="@+id/compra_msg_subtitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/compra_realizada_com_sucesso"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@id/compra_msg_titulo"
+        app:layout_constraintEnd_toEndOf="@id/compra_msg_titulo"
+        app:layout_constraintTop_toBottomOf="@id/compra_msg_titulo"
+        />
+
+    <TextView
+        android:id="@+id/compra_resumo_da_compra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confira_o_resumo_da_compra"
+        android:layout_margin="8dp"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="@id/compra_banner"
+        app:layout_constraintEnd_toEndOf="@id/compra_banner"
+        app:layout_constraintTop_toBottomOf="@id/compra_banner"
+        />
+
+    <ImageView
+        android:id="@+id/compra_imagem_local"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        tools:src="@drawable/sao_paulo_sp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/compra_resumo_da_compra"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:id="@+id/compra_txt_local"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="São Paulo"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/compra_imagem_local"
+        app:layout_constraintStart_toStartOf="@id/compra_imagem_local"
+        android:layout_margin="8dp"
+        />
+
+    <TextView
+        android:id="@+id/compra_txt_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="08/12 - 10/12 de 2022"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/compra_txt_local"
+        app:layout_constraintStart_toStartOf="@id/compra_imagem_local"
+        android:layout_margin="8dp"
+        />
+
+    <TextView
+        android:id="@+id/compra_txt_preco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="399,99"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/compra_txt_data"
+        app:layout_constraintStart_toStartOf="@id/compra_txt_data"
+        android:layout_marginTop="8dp"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
